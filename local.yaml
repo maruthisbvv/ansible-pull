@@ -1,3 +1,4 @@
+---
 - host: localhost
   become: true
   tasks:
