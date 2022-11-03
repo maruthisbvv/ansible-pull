@@ -1,4 +1,4 @@
-- host: local
+- host: localhost
   become: true
   tasks:
   - name: install httpd
