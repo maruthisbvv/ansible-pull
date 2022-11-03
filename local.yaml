@@ -1,7 +1,6 @@
-- host:
-  connection: local
+- host: local
   become: true
   tasks:
-  - name: install htop
+  - name: install httpd
     yum: 
-      name: htop
+      name: httpd
