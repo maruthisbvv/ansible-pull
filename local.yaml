@@ -1,7 +1,7 @@
 - host:
   connection: local
   become: true
-- tasks:
+  tasks:
   - name: install htop
     yum: 
       name: htop
