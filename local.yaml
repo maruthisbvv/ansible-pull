@@ -1,8 +1,6 @@
 - host:
   connection: local
   become: true
-
-
 - tasks:
   - name: install htop
     yum: 
